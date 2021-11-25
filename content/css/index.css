@@ -51,10 +51,6 @@ button{
     display: inherit;
 }
 
-.group-text-content{
-    margin-left: 135px;
-}
-
 .group-text-content .group_text-services{
     text-align: start;
     font-style: normal;
@@ -170,6 +166,9 @@ footer.mb{
         top: 44%;
     }
     .svg_soon{margin-top: 7px;}
+    .group-text-content{
+        margin-left: 135px;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -248,5 +247,9 @@ footer.mb{
         align-items: center;
         text-align: center;
         flex-direction: column
+    }
+
+    .group_sociais.mobile{
+        margin-bottom: 32px;
     }
 }
