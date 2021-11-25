@@ -74,7 +74,7 @@ button{
     font-weight: 600;
     font-size: 32px;
     line-height: 150%;
-    background-image: linear-gradient(to right, #7CFF00 -20%, #00FFF4 78%);
+    background-image: linear-gradient(to right, var(--gradiente-1) -20%, var(--gradiente-2) 78%);
     color: black;
     background-clip: text;
     -webkit-background-clip: text;
@@ -90,7 +90,7 @@ button{
 .group__text{
     margin-top: 16px;
     margin-bottom: 26.65px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fonte-corrida);
 }
 
 .group-text-content .group__text{
@@ -101,12 +101,12 @@ button{
 }
 
 .text_side span{
-    font-family: Roboto;
+    font-family: var(--fonte-corrida);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: var(--tonaliade-white);
     width: 0;
     white-space: nowrap;
 }
@@ -131,7 +131,7 @@ button{
 }
 
 footer{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fonte-corrida);
     font-size: 12px;
 }
 
@@ -145,7 +145,7 @@ footer.mb{
 }
 
 .visited{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: var(--fonte-corrida) !important;
 }
 
 .hover-d-none{
