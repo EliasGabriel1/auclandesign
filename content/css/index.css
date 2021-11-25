@@ -61,7 +61,7 @@ button{
 
 .group-text-content .group_text-services h5{
     line-height: 90%;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
 }
 
@@ -118,6 +118,8 @@ button{
 }
 
 .text_side span:last-child{
+    position: relative;
+    top: -60%;
     height: 141px;
     align-items: center;
     display: flex;
@@ -161,9 +163,9 @@ footer.mb{
         margin-left: 89.11px;
     }
     .construcao{
-        position: absolute;
-        left: 38%;
-        top: 44%;
+        position: relative;
+        left: 370px;
+        top: -98px;
     }
     .svg_soon{margin-top: 7px;}
     .group-text-content{
